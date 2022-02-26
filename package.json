@@ -1,0 +1,41 @@
+{
+  "name": "vik",
+  "version": "0.4.0",
+  "description": "CLI Semver autoincrement with major, minor, and patch.",
+  "main": "bin/vik",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wildhoney/Vik.git"
+  },
+  "keywords": [
+    "semver",
+    "patch",
+    "minor",
+    "major",
+    "versioning",
+    "version",
+    "git tag",
+    "version update"
+  ],
+  "author": "Adam Timberlake <adam.timberlake@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildhoney/Vik/issues"
+  },
+  "dependencies": {
+    "cli-color": "^0.2.3",
+    "format-json": "~1.0.3",
+    "nopt": "^3.0.1",
+    "pad": "0.0.5",
+    "parentpath": "~0.2.0"
+  },
+  "bin": {
+    "vik": "./bin/vik.js"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13"
+  }
+}
